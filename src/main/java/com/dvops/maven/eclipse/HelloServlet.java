@@ -40,7 +40,7 @@ public class HelloServlet extends HttpServlet {
 		//Step 2: Initialize a PrintWriter object to return the html values via the response
 		PrintWriter writer = response.getWriter();
 		writer.println("<h1>Hello " + username + "</h1>");
-		writer.println("<h1>Welcome and have a great day. Your ID has been created " + newuser + "</h1>");
+		writer.println("<h1>Welcome 2024 and have a great day. Your ID has been created " + newuser + "</h1>");
 		writer.close();
 		doGet(request, response);
 		}
